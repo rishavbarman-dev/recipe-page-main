@@ -1,0 +1,152 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  border: 0.5px solid #ebebeb;
+}
+
+.container {
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* INTRO SECTION  */
+
+.intro-section--title {
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  color: #2d2b29;
+}
+
+.intro-section--desc {
+  font-family: "Outfit", serif;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.intro-section--prep-div {
+  background-color: #fff7fc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.intro-section--prep-title {
+  color: #7b284f;
+  font-family: "Outfit", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 10px 15px;
+}
+
+.intro-section--prep-list {
+  color: #7b284f;
+}
+
+.intro-section--prep-items,
+.ingredient-section--items,
+.instruction-section--items {
+  font-family: "Outfit", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 10px 0 10px 0;
+}
+
+.intro-section--text,
+.ingredient-section--text,
+.instruction-section--text,
+.nutrition-section--text {
+  color: #646161;
+  line-height: 25px;
+  margin-left: 15px;
+}
+
+/* INGREDIENT/INSTRUCTION/NUTRITION SECTION */
+
+.ingredient-section--title,
+.instruction-section--tile,
+.nutrition-section--title {
+  color: #854632;
+  font-weight: 400;
+  font-family: 1.75rem;
+}
+
+.ingredient-section--list,
+.instruction-section--list {
+  color: #854632;
+  padding: 0 30px 10px 20px;
+}
+
+.nutrition-section p,
+.nutrition-unit {
+  font-family: "Outfit", serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.nutrition-container--row {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.nutrition-value {
+  color: #854632;
+  font-family: "Outfit", serif;
+}
+
+.attribution {
+  width: 60%;
+  padding: 30px 0;
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: #f3e5d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    border-radius: 25px;
+  }
+
+  .recipe-card {
+    background-color: #fff;
+    width: 50%;
+    padding: 50px;
+    margin: 150px;
+    height: auto;
+    border-radius: 25px;
+  }
+  .container {
+    width: 100%;
+    max-width: 1440px;
+  }
+
+  .nutrition-container--row {
+    width: 50%;
+    margin: 0 40px;
+  }
+
+  .attribution {
+    width: 35%;
+  }
+}
