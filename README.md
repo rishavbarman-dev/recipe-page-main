@@ -17,6 +17,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Overview
 
 ### Screenshot
+![image](https://github.com/user-attachments/assets/e54c3185-5166-46ea-a2de-6b1c7cfb2f05)
+![image](https://github.com/user-attachments/assets/2fb37d98-d11d-40e5-a7a8-ca12ff9453c4)
+
+
 
 ### Links
 
